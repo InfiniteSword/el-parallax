@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.dot{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #666;
+    /*border-radius: 50%;*/
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+}
+#dot1{
+    background: #6cf;
+    top: 300px;
+    left: 400px;
+}
+#dot2{
+    background: #96c;
+    top: 200px;
+    left: 600px;
+}
+#bg{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    bottom: -100px;
+    right: -100px;
+    background: url("els_1.jpg") no-repeat;
+    background-size: cover;
+}

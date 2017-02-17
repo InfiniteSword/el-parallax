@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+    <div id="bg"></div>
+    <span id="dot1" class="dot">haha</span>
+    <span id="dot2" class="dot">哈哈</span>
+
+    <script src="elParallax.js"></script>
+    <script>
+        var dot1 = document.getElementById('dot1');
+        var dot2 = document.getElementById('dot2');
+        var bg = document.getElementById('bg');
+        elParallax([{element:dot1},{element:dot2,multiple:0.5},{element:bg,perspective:true,multiple:0.01}]);
+    </script>
+</body>
+</html>
