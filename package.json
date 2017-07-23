@@ -1,0 +1,23 @@
+{
+  "name": "el-parallax",
+  "version": "0.0.1",
+  "description": "tool for making parallax of elements",
+  "main": "elParallax-export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfiniteSword/el-parallax.git"
+  },
+  "keywords": [
+    "parallax",
+    "js"
+  ],
+  "author": "Misic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InfiniteSword/el-parallax/issues"
+  },
+  "homepage": "https://github.com/InfiniteSword/el-parallax#readme"
+}
